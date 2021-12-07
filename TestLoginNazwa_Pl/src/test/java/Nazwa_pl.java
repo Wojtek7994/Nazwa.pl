@@ -97,14 +97,6 @@ public class Nazwa_pl {
         assertTrue(textMessage.contains(wrongLoginOrPasswordTextMessage));
     }
 
-    @Test
-    public void EmptyLoginAndEmptyPassword() {
-        customerPanelClick();
-        clearData();
-        setLoginAndPassword(negativeLogin, positivePassword);
-        loginClick();
-    }
-
     @After
     public void tearDown() {
         wd.quit();
