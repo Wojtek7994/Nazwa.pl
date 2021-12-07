@@ -25,4 +25,4 @@ Podczas testowania z danymi poprawnymi, serwis przepuszczał nas do kolejnego kr
 Założyłem, że przeniesienie do tego kroku pokazuje że dane, które podałem są prawidłowe i jesteśmy zalogowani. Wiem że nie jest to do końca zgodne z prawdą bo po to jest ten drugi etap weryfikacji ale nie miałem dostępu do jakiegoś zewnętrznego serwisu, który umożliwił by mi łatwiejsze przejście tego kroku więc stwierdziłem że dane są poprawne i test jest ok. 
 Z tytułu tego, że testy wykonywałem kilkanaście razy strona prosiła mnie również o to, żebym potwierdził że nie jestm robotem przez  reCAPTCHA jak pewnie będzie widoczne w moim teście, dorzuciłem w nim warunek który po pojawieniu się reCAPTCHA daje nam test pozytywny. 
 
-Zdaję sobie sprawę, że jest jeszcze kilka innych przypadków testowych dla PANELU LOGOWANIA jednak stwierdziłem, że przetestuję te najbardziej popularne. 
+Zdaję sobie sprawę, że jest jeszcze kilka innych przypadków testowych dla PANELU LOGOWANIA jednak stwierdziłem, że przetestuję te najbardziej popularne.
